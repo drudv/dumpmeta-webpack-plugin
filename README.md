@@ -11,7 +11,7 @@ or
 
 ## Usage
 
-Webpack.config.js:
+webpack.config.js:
 
 ```js
 const { DumpMetaPlugin } = require('dumpmeta-webpack-plugin');
@@ -32,6 +32,8 @@ module.exports = {
   ]
 }
 ```
+
+Please refer to the [Webpack documentation](https://webpack.js.org/api/stats/) for all available properties of the Stats data.
 
 ## Options
 
