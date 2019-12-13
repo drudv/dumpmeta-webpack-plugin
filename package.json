@@ -1,0 +1,23 @@
+{
+  "name": "dumpmeta-webpack-plugin",
+  "version": "0.1.0",
+  "description": "Save Webpack build metadata to a file",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:drudv/dumpmeta-webpack-plugin.git",
+  "author": "Dmitry Druganov <drud@drud.cz>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "@types/webpack": ">=4.0.0 <5.0.0",
+    "webpack": ">=4.0.0 <5.0.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
