@@ -1,4 +1,5 @@
 # Webpack Dump Metadata Plugin
+
 Save Webpack build metadata to a file.
 
 ## Install
@@ -37,7 +38,7 @@ Please refer to the [Webpack documentation](https://webpack.js.org/api/stats/) f
 
 ## Options
 
-|Name|Description|Default
-|:--:|:----------|:-----|
-|**`filename`**|Path to the output file|`'meta.json'`
-|**`prepare`**|Extract properties from Webpack build metadata to save. These options should be serializable to JSON.|`stats => ({hash: stats.hash})`
+|      Name      | Description                                                                                           | Default                         |
+| :------------: | :---------------------------------------------------------------------------------------------------- | :------------------------------ |
+| **`filename`** | Path to the output file                                                                               | `'meta.json'`                   |
+| **`prepare`**  | Extract properties from Webpack build metadata to save. These options should be serializable to JSON. | `stats => ({hash: stats.hash})` |
